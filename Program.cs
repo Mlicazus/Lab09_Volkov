@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿for (int room = 5; room <= 50; room += 5)
+{
+    Console.WriteLine($"Кабинет {room}");
+}
